@@ -411,7 +411,10 @@ body {
 // ========== Constants ==========
 const REPO_OWNER = 'siyuecarpediem-debug';
 const REPO_NAME  = 'daily-world-news';
-const RAW_BASE   = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/output`;
+const DATA_BASES = [
+  `https://cdn.jsdelivr.net/gh/${REPO_OWNER}/${REPO_NAME}@main/output`,     // jsDelivr CDN（国内可访问）
+  `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/output`, // GitHub Raw（需代理）
+];
 
 // ========== Source mapping ==========
 const SOURCE_META = {
@@ -472,17 +475,21 @@ async function fetchNews() {
   const dates = getDateStrings();
   let data = null;
 
-  for (const date of dates) {
-    try {
-      const url = `${RAW_BASE}/news_${date}.json`;
-      const resp = await fetch(url);
-      if (resp.ok) {
-        data = await resp.json();
-        document.getElementById('headerDate').textContent =
-          `数据更新于 ${date}（北京时间）`;
-        break;
-      }
-    } catch { /* try next date */ }
+  // 尝试多个 CDN 源和日期
+  for (const base of DATA_BASES) {
+    for (const date of dates) {
+      try {
+        const url = `${base}/news_${date}.json`;
+        const resp = await fetch(url);
+        if (resp.ok) {
+          data = await resp.json();
+          document.getElementById('headerDate').textContent =
+            `数据更新于 ${date}（北京时间）`;
+          break;
+        }
+      } catch { /* try next */ }
+    }
+    if (data) break;
   }
 
   return data;
