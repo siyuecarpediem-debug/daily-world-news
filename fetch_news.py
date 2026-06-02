@@ -1,6 +1,6 @@
 """
-每日国际新闻爬取脚本 (纯标准库，零依赖)
-从多个 RSS 源抓取国际新闻，输出 JSON + Markdown
+每日新闻爬取脚本 (纯标准库，零依赖)
+从多个 RSS 源抓取国际新闻 + 中文技术文章，输出 JSON + Markdown
 """
 import json
 import os
@@ -13,25 +13,58 @@ from urllib.error import URLError
 
 # ========== 配置 ==========
 RSS_FEEDS = [
+    # ===== 国际新闻（英文）=====
     {
         "name": "BBC World",
         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "category": "国际新闻",
     },
     {
         "name": "The Guardian - World",
         "url": "https://www.theguardian.com/world/rss",
+        "category": "国际新闻",
     },
     {
         "name": "Al Jazeera",
         "url": "https://www.aljazeera.com/xml/rss/all.xml",
+        "category": "国际新闻",
     },
     {
         "name": "NHK World",
         "url": "https://www3.nhk.or.jp/nhkworld/en/news/rss/",
+        "category": "国际新闻",
     },
     {
         "name": "VOA News",
         "url": "https://www.voanews.com/api/zyzr-zyvyy",
+        "category": "国际新闻",
+    },
+    # ===== 中文技术（CSDN）=====
+    {
+        "name": "CSDN-AI",
+        "url": "https://blog.csdn.net/qq_36667170/rss/list",
+        "category": "中文技术",
+    },
+    {
+        "name": "CSDN 后端",
+        "url": "https://blog.csdn.net/lixia0417mul2/rss/list",
+        "category": "中文技术",
+    },
+    {
+        "name": "CSDN 前端",
+        "url": "https://blog.csdn.net/weixin_46399138/rss/list",
+        "category": "中文技术",
+    },
+    {
+        "name": "CSDN Python",
+        "url": "https://blog.csdn.net/ScienceRui/rss/list",
+        "category": "中文技术",
+    },
+    {
+        "name": "CSDN 推荐",
+        "url": "https://blog.csdn.net/community/home-api/v1/get-business-list?page=1&type=home&noMore=false",
+        "category": "中文技术",
+        "api_type": "csdn_json",
     },
 ]
 
@@ -50,8 +83,13 @@ def strip_html(text):
 
 
 def fetch_rss(feed_info):
-    """用标准库抓取 RSS XML"""
+    """用标准库抓取 RSS XML（也支持 CSDN JSON API）"""
     print(f"  Fetching {feed_info['name']}...")
+
+    # CSDN JSON API 特殊处理
+    if feed_info.get("api_type") == "csdn_json":
+        return fetch_csdn_json_api(feed_info)
+
     try:
         req = Request(feed_info["url"], headers={"User-Agent": USER_AGENT})
         with urlopen(req, timeout=15) as resp:
@@ -74,6 +112,7 @@ def fetch_rss(feed_info):
                 "summary": strip_html(desc or ""),
                 "published": pub_date or "",
                 "source": feed_info["name"],
+                "category": feed_info.get("category", "其他"),
             })
 
         # 如果没有 RSS item，尝试 Atom 格式
@@ -90,6 +129,7 @@ def fetch_rss(feed_info):
                     "summary": strip_html(summary or ""),
                     "published": updated or "",
                     "source": feed_info["name"],
+                    "category": feed_info.get("category", "其他"),
                 })
 
         print(f"    ✓ Got {len(articles)} articles")
@@ -103,6 +143,47 @@ def fetch_rss(feed_info):
         return []
     except Exception as e:
         print(f"    ✗ Unexpected error: {e}")
+        return []
+
+
+def fetch_csdn_json_api(feed_info):
+    """抓取 CSDN JSON API 格式"""
+    try:
+        req = Request(feed_info["url"], headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Referer": "https://blog.csdn.net/",
+        })
+        with urlopen(req, timeout=15) as resp:
+            raw = resp.read()
+        data = json.loads(raw)
+
+        articles = []
+        # CSDN API 返回格式: {"code":200, "data": {"list": [...]}}
+        items = []
+        if isinstance(data, dict):
+            items = data.get("data", {}).get("list", [])
+        if not items and isinstance(data, list):
+            items = data
+
+        for item in items:
+            title = item.get("title", "")
+            link = item.get("url", "")
+            desc = item.get("description", "") or item.get("brief_content", "")
+            pub_time = item.get("created_at", "") or item.get("create_time", "")
+            articles.append({
+                "title": strip_html(str(title)),
+                "link": str(link),
+                "summary": strip_html(str(desc)),
+                "published": str(pub_time),
+                "source": feed_info["name"],
+                "category": feed_info.get("category", "中文技术"),
+            })
+
+        print(f"    ✓ Got {len(articles)} articles (JSON API)")
+        return articles
+
+    except Exception as e:
+        print(f"    ✗ CSDN API error: {e}")
         return []
 
 

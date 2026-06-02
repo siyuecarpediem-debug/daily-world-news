@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>环球速览 — 每日国际新闻</title>
+<title>每日速览 — 国际新闻 &amp; 中文技术</title>
 <style>
 /* ========== CSS Variables ========== */
 :root {
@@ -29,7 +29,12 @@
 .source-aljazeera { --src-color: #f7941d; --src-bg: #fff8ed; }
 .source-nhk       { --src-color: #1a4472; --src-bg: #eef4fa; }
 .source-voa        { --src-color: #0068a5; --src-bg: #edf6fb; }
-.source-other      { --src-color: #5a4e3c; --src-bg: #f5f2ed; }
+.source-csdn        { --src-color: #fc5531; --src-bg: #fff3f0; }
+.source-other        { --src-color: #5a4e3c; --src-bg: #f5f2ed; }
+
+/* ========== Category Badge ========== */
+.cat-international { background: #3d3220; color: #fdf8f0; }
+.cat-tech           { background: #fc5531; color: #fff; }
 
 /* ========== Reset & Base ========== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -345,8 +350,8 @@ body {
 <!-- ========== Header ========== -->
 <header class="header">
   <div class="header-inner">
-    <h1>环球速览</h1>
-    <p class="subtitle">每 日 国 际 新 闻  ·  数 据 驱 动  ·  自 动 采 集</p>
+    <h1>每日速览</h1>
+    <p class="subtitle">国 际 新 闻  ·  中 文 技 术  ·  自 动 采 集</p>
     <p class="date-display" id="headerDate">--</p>
   </div>
 </header>
@@ -410,13 +415,18 @@ const RAW_BASE   = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}
 
 // ========== Source mapping ==========
 const SOURCE_META = {
-  'BBC World':               { cls: 'source-bbc',       label: 'BBC World' },
-  'The Guardian - World':    { cls: 'source-guardian',  label: '卫报' },
-  'Al Jazeera':              { cls: 'source-aljazeera', label: '半岛电视台' },
-  'NHK World':               { cls: 'source-nhk',       label: 'NHK World' },
-  'VOA News':                { cls: 'source-voa',        label: 'VOA' },
+  'BBC World':               { cls: 'source-bbc',       label: 'BBC World', cat: 'international' },
+  'The Guardian - World':    { cls: 'source-guardian',  label: '卫报',      cat: 'international' },
+  'Al Jazeera':              { cls: 'source-aljazeera', label: '半岛电视台', cat: 'international' },
+  'NHK World':               { cls: 'source-nhk',       label: 'NHK World', cat: 'international' },
+  'VOA News':                { cls: 'source-voa',       label: 'VOA',       cat: 'international' },
+  'CSDN-AI':                 { cls: 'source-csdn',      label: 'CSDN·AI',   cat: 'tech' },
+  'CSDN 后端':               { cls: 'source-csdn',      label: 'CSDN·后端', cat: 'tech' },
+  'CSDN 前端':               { cls: 'source-csdn',      label: 'CSDN·前端', cat: 'tech' },
+  'CSDN Python':             { cls: 'source-csdn',      label: 'CSDN·Python', cat: 'tech' },
+  'CSDN 推荐':               { cls: 'source-csdn',      label: 'CSDN·推荐', cat: 'tech' },
 };
-const DEFAULT_META = { cls: 'source-other', label: '其他' };
+const DEFAULT_META = { cls: 'source-other', label: '其他', cat: 'other' };
 
 // ========== State ==========
 let allArticles = [];
@@ -498,7 +508,13 @@ function renderFilterTabs(articles) {
   const sources = [...new Set(articles.map(a => a.source))];
   const tabs = document.getElementById('filterTabs');
   const allActive = activeSource === '全部' ? ' active' : '';
+  const intActive = activeSource === '#国际新闻' ? ' active' : '';
+  const techActive = activeSource === '#中文技术' ? ' active' : '';
+
   let html = `<button class="filter-tab${allActive}" data-source="全部">全部</button>`;
+  html += `<button class="filter-tab${intActive}" data-source="#国际新闻">🌍 国际新闻</button>`;
+  html += `<button class="filter-tab${techActive}" data-source="#中文技术">💻 中文技术</button>`;
+  html += '<span style="color:var(--text-muted);margin:0 4px;align-self:center;">|</span>';
   sources.forEach(src => {
     const active = activeSource === src ? ' active' : '';
     html += `<button class="filter-tab${active}" data-source="${src}">${labelForSource(src)}</button>`;
@@ -520,7 +536,11 @@ function renderGrid() {
   const query = document.getElementById('searchInput').value.trim().toLowerCase();
 
   let filtered = allArticles;
-  if (activeSource !== '全部') {
+  if (activeSource === '#国际新闻') {
+    filtered = filtered.filter(a => (a.category || '国际新闻') === '国际新闻');
+  } else if (activeSource === '#中文技术') {
+    filtered = filtered.filter(a => (a.category || '国际新闻') === '中文技术');
+  } else if (activeSource !== '全部') {
     filtered = filtered.filter(a => a.source === activeSource);
   }
   if (query) {
