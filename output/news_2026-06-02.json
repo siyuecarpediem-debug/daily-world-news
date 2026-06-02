@@ -1,23 +1,100 @@
 [
   {
-    "title": "Lebanon says Hezbollah agrees reciprocal halt to attacks on Israel",
-    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
-    "summary": "Hours after the pause was announced, the Israeli military said it had intercepted projectiles fired from Lebanon.",
-    "published": "Mon, 01 Jun 2026 23:50:03 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Bowen: Trump needs this war to end but Iran is not backing down",
-    "link": "https://www.bbc.com/news/articles/cedp3lee059o?at_medium=RSS&at_campaign=rss",
-    "summary": "Under pressure from the polls and Gulf allies, the White House is pushing for a deal but Iran wants concessions, writes BBC's international editor.",
-    "published": "Mon, 01 Jun 2026 21:50:52 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Massive overnight Russian strikes on Ukraine kill nine people",
+    "title": "Ukraine rescuers pull dead from rubble after Russian strikes kill 18 people",
     "link": "https://www.bbc.com/news/articles/c5y8nq8ljqwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Kyiv Mayor Vitali Klitschko says two high-rise apartment buildings have been hit and there are fears people are trapped under rubble.",
-    "published": "Tue, 02 Jun 2026 03:40:38 GMT",
+    "summary": "An eight-year-old boy and a woman killed in a strike on an apartment block are among the dead, officials say.",
+    "published": "Tue, 02 Jun 2026 12:46:36 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Clashes continue in Lebanon despite Israel and Hezbollah accepting US partial ceasefire plan",
+    "link": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
+    "summary": "A cessation of hostilities between Israel and Hezbollah is seen as crucial to the peace process with Iran.",
+    "published": "Tue, 02 Jun 2026 07:31:10 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Two people shot dead amid Kenya protests against US Ebola quarantine centre plan",
+    "link": "https://www.bbc.com/news/articles/cvgz7zny3pzo?at_medium=RSS&at_campaign=rss",
+    "summary": "The US plan has sparked public anger and led to demonstrations near the site of the proposed treatment facility.",
+    "published": "Tue, 02 Jun 2026 10:53:37 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Instagram AI chatbot tricked by hackers to give access to others' accounts",
+    "link": "https://www.bbc.com/news/articles/c98rzr72dpyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Some reports have linked the incident to recent cases of high-profile Instagram accounts being hijacked.",
+    "published": "Tue, 02 Jun 2026 11:40:02 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Denmark's Mette Frederiksen to form government after months of negotiations",
+    "link": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss",
+    "summary": "The leader of Denmark's Social Democratic Party is forming a centre-left coalition minority government, giving her a third term as prime minister.",
+    "published": "Tue, 02 Jun 2026 01:19:15 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Sabrina Carpenter gets restraining order against man who showed up at her home",
+    "link": "https://www.bbc.com/news/articles/c7v9p9yy370o?at_medium=RSS&at_campaign=rss",
+    "summary": "The singer reported a series of \"deeply alarming\" incidents at her house to Los Angeles police.",
+    "published": "Tue, 02 Jun 2026 10:18:29 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Maga influencer admits London Tube station assault",
+    "link": "https://www.bbc.com/news/articles/c3v2qyp5pzro?at_medium=RSS&at_campaign=rss",
+    "summary": "Melissa Rein Lively accepted a caution, while an assault by beating charge against her was withdrawn.",
+    "published": "Tue, 02 Jun 2026 11:35:42 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "China goes after 'ghost kitchens' to rein in cut-throat food delivery apps",
+    "link": "https://www.bbc.com/news/articles/cj4p7zglq5no?at_medium=RSS&at_campaign=rss",
+    "summary": "The thousands of \"ghost kitchens\" - online shops that don't actually exist - have spooked Chinese consumers.",
+    "published": "Tue, 02 Jun 2026 07:52:47 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Trump administration will abide by ruling halting $1.8bn 'anti-weaponisation' fund",
+    "link": "https://www.bbc.com/news/articles/crkpyj41m15o?at_medium=RSS&at_campaign=rss",
+    "summary": "The justice department says it  \"disagrees strongly\" with a court decision to halt the establishment of the fund.",
+    "published": "Mon, 01 Jun 2026 23:03:39 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Australian ex-minister launches crowd-funded inquiry into Aukus submarine deal",
+    "link": "https://www.bbc.com/news/articles/cn7p3ky2yl1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Inquiry will look at whether Australia will receive the submarines and whether it will make the country safer.",
+    "published": "Tue, 02 Jun 2026 02:06:34 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "AI giant Anthropic plans to sell shares in US as valuation nears $1tn",
+    "link": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
+    "summary": "The AI company behind Claude is set to offer the public the chance to buy and sell shares in the firm later this year.",
+    "published": "Tue, 02 Jun 2026 07:00:21 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Missing lab worker found dead in New Mexico nearly a year after disappearing",
+    "link": "https://www.bbc.com/news/articles/c0723mr8j3po?at_medium=RSS&at_campaign=rss",
+    "summary": "Melissa Casias' case was part of debunked speculations about recent deaths and disappearances in the US scientific community.",
+    "published": "Tue, 02 Jun 2026 02:07:28 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Italians bemused by Milan bull mosaic restoration",
+    "link": "https://www.bbc.com/news/articles/ckgp72v8q0wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Italians wondered what had happened to the animal's \"lucky-charm\" testicles.",
+    "published": "Mon, 01 Jun 2026 18:18:06 GMT",
+    "source": "BBC World"
+  },
+  {
+    "title": "Six people killed in Iowa domestic dispute, police say",
+    "link": "https://www.bbc.com/news/articles/cg4p7e6301do?at_medium=RSS&at_campaign=rss",
+    "summary": "The suspected shooter was found dead near a bridge with a self-inflicted gunshot wound, authorities say.",
+    "published": "Tue, 02 Jun 2026 03:50:34 GMT",
     "source": "BBC World"
   },
   {
@@ -35,97 +112,6 @@
     "source": "BBC World"
   },
   {
-    "title": "Denmark's Mette Frederiksen to form government after months of negotiations",
-    "link": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss",
-    "summary": "The leader of Denmark's Social Democratic Party is forming a centre-left coalition minority government, giving her a third term as prime minister.",
-    "published": "Tue, 02 Jun 2026 01:19:15 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Trump inserts himself into the centre of America's 250th birthday celebrations",
-    "link": "https://www.bbc.com/news/articles/clypkj2e349o?at_medium=RSS&at_campaign=rss",
-    "summary": "Instead of a uniting event, America's Independence Day celebrations are becoming yet another partisan battleground.",
-    "published": "Mon, 01 Jun 2026 22:56:39 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "AI giant Anthropic says it plans to list on US stock market",
-    "link": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
-    "summary": "The AI company behind Claude is set to offer the public shares of stock sometime this year.",
-    "published": "Mon, 01 Jun 2026 18:50:13 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Italians bemused by Milan bull mosaic restoration",
-    "link": "https://www.bbc.com/news/articles/ckgp72v8q0wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Italians wondered what had happened to the animal's \"lucky-charm\" testicles.",
-    "published": "Mon, 01 Jun 2026 18:18:06 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Hungarian PM threatens to oust Orbán-era president",
-    "link": "https://www.bbc.com/news/articles/c3w2vdd6jj3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Hungary's president has refused Prime Minister Péter Magyar's demands to step aside, setting up a constitutional clash.",
-    "published": "Mon, 01 Jun 2026 16:54:28 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Williams, 44, to return to action in Queen's doubles",
-    "link": "https://www.bbc.com/sport/tennis/articles/cx21k06ddvyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Serena Williams will return to competitive tennis for the first time in nearly four years when she plays in the women's doubles at Queen's.",
-    "published": "Mon, 01 Jun 2026 18:39:48 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "US political commentators denied entry to UK by Home Office",
-    "link": "https://www.bbc.com/news/articles/cwy2rxyvvl1o?at_medium=RSS&at_campaign=rss",
-    "summary": "The US citizens and left-wing content creators with huge online followings were due to speak at the SXSW London festival and Oxford this week.",
-    "published": "Mon, 01 Jun 2026 15:40:58 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "France seized sanctioned Russian oil tanker with UK help, Macron says",
-    "link": "https://www.bbc.com/news/articles/cn8pwgej1gxo?at_medium=RSS&at_campaign=rss",
-    "summary": "A British helicopter provided support during the operation on Sunday, the UK ministry of defence says.",
-    "published": "Mon, 01 Jun 2026 11:53:26 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Two possible Ebola cases in Brazil ruled out as patients test negative",
-    "link": "https://www.bbc.com/news/articles/c99lzgxzx2do?at_medium=RSS&at_campaign=rss",
-    "summary": "The two patients had recently returned from the DR Congo and Uganda respectively.",
-    "published": "Mon, 01 Jun 2026 21:40:19 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Huge blast kills dozens in rebel-held village in Myanmar",
-    "link": "https://www.bbc.com/news/articles/cglp7p787njo?at_medium=RSS&at_campaign=rss",
-    "summary": "Insurgents say it was caused by explosives being used for mining close to the Chinese border.",
-    "published": "Mon, 01 Jun 2026 06:23:59 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Voting suspended in parts of Ethiopia over security concerns",
-    "link": "https://www.bbc.com/news/articles/cn0pngz2rego?at_medium=RSS&at_campaign=rss",
-    "summary": "Prime Minister Abiy Ahmed's party is expected to dominate the election as conflicts overshadow the vote.",
-    "published": "Mon, 01 Jun 2026 14:35:36 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Poland's controversial 'Highway to Hel' 666 bus revived",
-    "link": "https://www.bbc.com/news/articles/c1d2ld91635o?at_medium=RSS&at_campaign=rss",
-    "summary": "Poland's seaside resort called Hel is getting its 666 bus service back, despite earlier opposition from Christian groups.",
-    "published": "Mon, 01 Jun 2026 03:19:57 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Nigeria police warn against reprisal attacks against South Africans",
-    "link": "https://www.bbc.com/news/articles/ce8prypdpz6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tensions have been rising in South Africa in recent weeks following several anti-migrant protests.",
-    "published": "Mon, 01 Jun 2026 10:02:49 GMT",
-    "source": "BBC World"
-  },
-  {
     "title": "Litterbugs now face on-the-spot fines in Tokyo's tourist hotspot",
     "link": "https://www.bbc.com/news/articles/cr7py513njmo?at_medium=RSS&at_campaign=rss",
     "summary": "Dozens of officials will patrol world-famous Shibuya as Japan responds to the impacts of overtourism.",
@@ -133,59 +119,24 @@
     "source": "BBC World"
   },
   {
-    "title": "Colombia presidential runoff pits leftist senator against pro-Trump rival",
-    "link": "https://www.bbc.com/news/articles/c1w2xvwq8g9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Left-wing senator Iván Cepeda will face Trump admirer Abelardo de la Espriella at the final ballot on 21 June.",
-    "published": "Mon, 01 Jun 2026 01:53:03 GMT",
+    "title": "He was a reality show villain. Can he be the mayor of one of America's largest cities?",
+    "link": "https://www.bbc.com/news/articles/c775x852rk1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Republican Spencer Pratt, known for his TV role on The Hills, appears to be in a tight race with two Democrats in Los Angeles.",
+    "published": "Tue, 02 Jun 2026 10:33:06 GMT",
     "source": "BBC World"
   },
   {
-    "title": "South Africa made to look like fools over World Cup visa issues, says minister",
-    "link": "https://www.bbc.com/news/articles/c86dxvql3qno?at_medium=RSS&at_campaign=rss",
-    "summary": "After a day of uncertainty, the government confirms the team will depart for Mexico on Monday.",
-    "published": "Sun, 31 May 2026 17:27:18 GMT",
+    "title": "Why Myanmar president's India visit is being closely watched",
+    "link": "https://www.bbc.com/news/articles/ckgplnj1wexo?at_medium=RSS&at_campaign=rss",
+    "summary": "Myanmar is seeking to broaden diplomatic engagement after years of international criticism and isolation.",
+    "published": "Tue, 02 Jun 2026 08:29:20 GMT",
     "source": "BBC World"
   },
   {
-    "title": "Hundreds arrested and dozens of police injured after Champions League riots in France",
-    "link": "https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&at_campaign=rss",
-    "summary": "Nearly 800 people were arrested after clashes with police which saw 219 people injured, including 57 police officers.",
-    "published": "Sun, 31 May 2026 18:13:39 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Dead whale towed ashore in Denmark ahead of autopsy",
-    "link": "https://www.bbc.com/news/articles/cpwpl9vn0yqo?at_medium=RSS&at_campaign=rss",
-    "summary": "\"Timmy\" was found dead off the coast of Anholt despite multiple attempts to rescue it.",
-    "published": "Sun, 31 May 2026 19:05:42 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Nicaraguan indigenous leader dies after three years in prison",
-    "link": "https://www.bbc.com/news/articles/cvgzyyrzj1jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Rights groups condemn the death of Brooklyn Rivera, 73, following his long arbitrary detention by the governing regime.",
-    "published": "Sun, 31 May 2026 21:52:38 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Laos cave survivors help with plan to find last two missing men",
-    "link": "https://www.bbc.com/news/articles/c8094jdpzv3o?at_medium=RSS&at_campaign=rss",
-    "summary": "So far, five men have been freed from the narrow, flooded cave but efforts are ongoing to locate two more.",
-    "published": "Sun, 31 May 2026 15:52:42 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Trump seeking edits to US-Iran deal, US media report",
-    "link": "https://www.bbc.com/news/articles/c1w2xve315do?at_medium=RSS&at_campaign=rss",
-    "summary": "The requested changes are related to the Strait of Hormuz and the removal of highly enriched uranium, according to US media.",
-    "published": "Sun, 31 May 2026 22:54:20 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Japan defence minister denies militarism and criticises China's 'huge arsenal'",
-    "link": "https://www.bbc.com/news/articles/cp8p4ejy8ppo?at_medium=RSS&at_campaign=rss",
-    "summary": "Shinjiro Koizumi makes some of Tokyo's most pointed remarks yet in the dispute over Japan's military build-up.",
-    "published": "Sun, 31 May 2026 06:34:04 GMT",
+    "title": "Cara Delevingne says new music was inspired by getting sober",
+    "link": "https://www.bbc.com/news/articles/crkpypyv2d2o?at_medium=RSS&at_campaign=rss",
+    "summary": "The model and actress is now moving into the world of music, having released her first two songs.",
+    "published": "Tue, 02 Jun 2026 11:28:45 GMT",
     "source": "BBC World"
   },
   {
@@ -196,17 +147,17 @@
     "source": "BBC World"
   },
   {
-    "title": "'Mornings and nights no longer exist' at 47C:  A day in the hottest place in India",
-    "link": "https://www.bbc.com/news/articles/crmp0krp98ro?at_medium=RSS&at_campaign=rss",
-    "summary": "What a day in India's hottest district reveals about life on the frontline of extreme heat.",
-    "published": "Mon, 01 Jun 2026 22:31:42 GMT",
+    "title": "Bowen: Trump needs this war to end but Iran is not backing down",
+    "link": "https://www.bbc.com/news/articles/cedp3lee059o?at_medium=RSS&at_campaign=rss",
+    "summary": "Under pressure from the polls and Gulf allies, the White House is pushing for a deal but Iran wants concessions, writes BBC's international editor.",
+    "published": "Mon, 01 Jun 2026 21:50:52 GMT",
     "source": "BBC World"
   },
   {
-    "title": "Iran attacks damage 20 US military sites since start of war, satellite images show",
-    "link": "https://www.bbc.com/news/articles/c2l2yl7r8r2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Analysts told BBC Verify that Tehran's strikes were more extensive than publicly acknowledged.",
-    "published": "Mon, 01 Jun 2026 05:33:18 GMT",
+    "title": "How Cornish miners brought football to Mexico",
+    "link": "https://www.bbc.com/sport/football/articles/cx21q453l4jo?at_medium=RSS&at_campaign=rss",
+    "summary": "As Mexico prepares to become the first country to host or co-host the World Cup three times, BBC Sport looks at its Cornish footballing roots.",
+    "published": "Tue, 02 Jun 2026 05:28:25 GMT",
     "source": "BBC World"
   },
   {
@@ -217,80 +168,10 @@
     "source": "BBC World"
   },
   {
-    "title": "No, Trump's name hasn't been removed from the Kennedy Center",
-    "link": "https://www.bbc.com/news/videos/c759pqn255zo?at_medium=RSS&at_campaign=rss",
-    "summary": "An AI video of President Trump’s name being ripped off the front of the building has been seen by millions online.",
-    "published": "Mon, 01 Jun 2026 21:35:30 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "A year of grief after Air India crash: What remains when a plane falls from the sky",
-    "link": "https://www.bbc.com/news/articles/ce9pp53ky42o?at_medium=RSS&at_campaign=rss",
-    "summary": "A mother still speaks about her son who died in the crash in the present tense and a brother waits for answers.",
-    "published": "Mon, 01 Jun 2026 00:24:47 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "The drivers risking death on Ukraine's most dangerous bus routes",
-    "link": "https://www.bbc.com/news/articles/c87q2eq8r1yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Russian drones are targeting public buses in Kherson, killing three transport workers so far this year.",
-    "published": "Sun, 31 May 2026 23:40:57 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Grammy-winning director explores his Nigerian grandfather's role in the Biafran war",
-    "link": "https://www.bbc.com/news/articles/c8r826465dko?at_medium=RSS&at_campaign=rss",
-    "summary": "Filmmaker Meji Alabi directs a landmark BBC Africa Eye documentary about Nigeria's civil war.",
-    "published": "Mon, 01 Jun 2026 01:32:07 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Secret tunnels and unregistered workers: China's coal mine disaster is a reminder of darker days",
-    "link": "https://www.bbc.com/news/articles/cpwpeg57777o?at_medium=RSS&at_campaign=rss",
-    "summary": "China's worst coal mining disaster in 15 years comes amid an ambitious pivot towards green energy.",
-    "published": "Sun, 31 May 2026 23:32:04 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Caribbean hot sauce producers warn of shortages and higher prices",
-    "link": "https://www.bbc.com/news/articles/cq8p1jy3vxlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Manufacturers in Jamaica say the key chilli peppers they need are in limited supply.",
-    "published": "Sun, 31 May 2026 23:19:32 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "How Putin became master of the image",
-    "link": "https://www.bbc.com/news/articles/cddpl33v247o?at_medium=RSS&at_campaign=rss",
-    "summary": "From enigmatic KGB agent to wartime ruler, this is how Putin has repeatedly reinvented his image, and himself.",
-    "published": "Sat, 30 May 2026 23:17:26 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Cuba’s blackouts leave high-rise residents with constant uncertainty",
-    "link": "https://www.bbc.com/news/videos/c809nj57drxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Will Grant spoke to a 70-year-old widow who says the inability to use her building's elevator during a power outage trapped her and her husband when he needed medical care.",
-    "published": "Sun, 31 May 2026 00:11:56 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "'It's like a decaying body': Australian farmers battle mouse plague",
-    "link": "https://www.bbc.com/news/articles/c794g80lw74o?at_medium=RSS&at_campaign=rss",
-    "summary": "Farmers report thousands of mice per hectare destroying crops and invading homes.",
-    "published": "Sat, 30 May 2026 20:58:05 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Ferrari wanted to take on Chinese EVs with the Luce - then the backlash started",
-    "link": "https://www.bbc.com/news/articles/c1l2y7j7454o?at_medium=RSS&at_campaign=rss",
-    "summary": "The brand's first EV has been heavily criticised, with some saying it has abandoned Ferrari's roots.",
-    "published": "Sat, 30 May 2026 22:23:32 GMT",
-    "source": "BBC World"
-  },
-  {
-    "title": "Trump's doctor says he's in excellent health - but are US presidents' health checks a PR exercise?",
-    "link": "https://www.bbc.com/news/articles/c9q39dx778zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Every president in modern history - including Donald Trump this week - has taken an annual physical exam that is as much about messaging as it is about health.",
-    "published": "Sat, 30 May 2026 15:06:01 GMT",
+    "title": "Watch: Explosion at fireworks factory in Malta",
+    "link": "https://www.bbc.com/news/videos/c5y0n0qvkkxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Two men were injured in the explosion and were taken to hospital with minor injuries.",
+    "published": "Tue, 02 Jun 2026 08:06:20 GMT",
     "source": "BBC World"
   },
   {
@@ -315,11 +196,11 @@
     "source": "BBC World"
   },
   {
-    "title": "'I will sleep with fear': Romanians shaken after block of flats hit by drone",
-    "link": "https://www.bbc.com/news/videos/c4g5kxl9k1ro?at_medium=RSS&at_campaign=rss",
-    "summary": "A Russian drone hit a block of flats in Romania on Friday, causing a fire and injuring two people, Romanian officials say.",
-    "published": "Sat, 30 May 2026 16:21:28 GMT",
-    "source": "BBC World"
+    "title": "Mozambique says five citizens killed in ‘xenophobic attacks’ in South Africa",
+    "link": "https://www.theguardian.com/world/2026/jun/02/mozambique-citizens-killed-xenophobic-attacks-south-africa",
+    "summary": "South African police confirm two deaths of Mozambicans in Mossel Bay as anti-immigration violence sweeps countryMozambique said five of its nationals were killed in “xenophobic attacks” in South Africa at the weekend and efforts were under way on Tuesday to repatriate hundreds of others.However, the",
+    "published": "Tue, 02 Jun 2026 07:29:36 GMT",
+    "source": "The Guardian - World"
   },
   {
     "title": "People ‘panicking’ as Ghana passes sweeping law criminalising LGBTQ+ activity",
@@ -350,10 +231,10 @@
     "source": "The Guardian - World"
   },
   {
-    "title": "Death of Congolese man renews scrutiny of race relations in Ireland",
-    "link": "https://www.theguardian.com/world/2026/may/31/yves-sakila-death-congolese-man-ireland-race-relations",
-    "summary": "Yves Sakila died after being restrained by security guards ‘in broad daylight’Irish authorities have agreed to a second postmortem on the body of a Congolese man who died after being restrained by shop security guards on a Dublin street, prompting an outcry and comparisons to the death of George Flo",
-    "published": "Sun, 31 May 2026 13:59:34 GMT",
+    "title": "Musket balls and a burnt hull: evidence of real pirates of the Caribbean found in Bahamas",
+    "link": "https://www.theguardian.com/world/2026/jun/02/shipwrecks-evidence-real-pirates-of-the-caribbean-nassau-harbour-bahamas",
+    "summary": "Exclusive: First shipwrecks found in Nassau harbour on New Providence, once the hideout of Blackbeard and Calico JackThe first shipwrecks linked to the real pirates of the Caribbean in the Bahamas have been discovered by an international team co-directed by a British marine archaeologist.Blackbeard ",
+    "published": "Tue, 02 Jun 2026 08:00:42 GMT",
     "source": "The Guardian - World"
   },
   {
@@ -382,13 +263,6 @@
     "link": "https://www.theguardian.com/world/2026/may/31/colombia-polls-election-outgoing-leaders-ally-pro-trump-candidates",
     "summary": "Ballots are being cast in the first round of the South American nation’s presidential electionsColombians are casting ballots in the first round of the South American nation’s presidential election, choosing between candidates with radically diverging visions for the future of peace in a country hau",
     "published": "Sun, 31 May 2026 11:23:36 GMT",
-    "source": "The Guardian - World"
-  },
-  {
-    "title": "Colombia prepares to go to polls in election shadowed by resurgence of political violence",
-    "link": "https://www.theguardian.com/world/2026/may/30/colombia-presidential-election-vote-resurgence-political-violence",
-    "summary": "Sunday’s presidential vote is contest between left and right – and between contradictory proposals for dealing with the decades-long armed conflictMateo Pérez Rueda was one internship away from completing a degree in political science. The 24-year-old also worked as a bicycle delivery rider and sold",
-    "published": "Sat, 30 May 2026 09:00:14 GMT",
     "source": "The Guardian - World"
   },
   {
@@ -427,52 +301,66 @@
     "source": "The Guardian - World"
   },
   {
-    "title": "Australia politics live: One Nation MP sworn in; parliament to sit late as government pushes tax change bill",
+    "title": "Barnaby Joyce rallies anti-abortion activists ahead of tight NSW vote",
+    "link": "https://www.theguardian.com/world/2026/jun/02/barnaby-joyce-rallies-anti-abortion-activists-as-they-target-nationals-mps-in-nsw-vote-ntwnfb",
+    "summary": "Sydney crowd told to target National MPs as upper house prepares to vote on a bill outlawing sex-selective terminationsGet our breaking news email, free app or daily news podcastOne Nation’s Barnaby Joyce has joined pro-life campaigners to pile pressure on Nationals MPs to vote to criminalise some a",
+    "published": "Tue, 02 Jun 2026 12:45:14 GMT",
+    "source": "The Guardian - World"
+  },
+  {
+    "title": "‘Not the deal promised’: Labor’s Ed Husic questions Aukus pact that will deliver secondhand subs",
+    "link": "https://www.theguardian.com/world/2026/jun/02/aukus-submarines-subs-secondhand-labor-ed-husic-response",
+    "summary": "Former frontbencher launches most significant internal criticism of $368bn Aukus deal since ALP national conference in 2023Follow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastAustralia needs a backup plan for the Aukus submarine agreement,",
+    "published": "Tue, 02 Jun 2026 09:29:01 GMT",
+    "source": "The Guardian - World"
+  },
+  {
+    "title": "Ben Roberts-Smith won’t see full brief of war crime allegations for months – as it happened",
     "link": "https://www.theguardian.com/australia-news/live/2026/jun/02/australia-politics-live-one-nation-minimum-wage-case-labor-coalition-anthony-albanese-angus-taylor-question-time-senate-estimates-ntwnfb",
-    "summary": "Follow today’s news liveGet our breaking news email, free app or daily news podcastThe foreign minister, Penny Wong, has announced new sanctions by the commonwealth over three Israeli individuals and four entities in response to “escalating settler violence against Palestinians in the West Bank”.The",
-    "published": "Tue, 02 Jun 2026 03:24:47 GMT",
-    "source": "The Guardian - World"
-  },
-  {
-    "title": "Victorian minister under fire for writing 33 character references including for taxi driver who assaulted women",
-    "link": "https://www.theguardian.com/australia-news/2026/jun/02/victorian-minister-under-fire-for-writing-33-character-references-including-for-taxi-driver-who-assaulted-women-ntwnfb",
-    "summary": "Labor’s Luba Grigorovitch says she regrets six of the character references and vows never to write anotherFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastNewly promoted Victorian government minister Luba Grigorovitch says she will neve",
-    "published": "Tue, 02 Jun 2026 03:12:27 GMT",
-    "source": "The Guardian - World"
-  },
-  {
-    "title": "Dog rescued from island off Australia's coast after being swept off rocks into ocean",
-    "link": "https://www.theguardian.com/australia-news/2026/jun/02/dog-rescued-snapper-island-batemans-bay-nsw-australia",
-    "summary": "Marine Rescue NSW volunteer coaxes distressed dog on to jetski after it paddled to Snapper Island in Batemans BayFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastOn Monday, radio operators in Batemans Bay along the New South Wales south",
-    "published": "Tue, 02 Jun 2026 01:26:46 GMT",
+    "summary": "This blog is now closedGet our breaking news email, free app or daily news podcastThe foreign minister, Penny Wong, has announced new sanctions by the commonwealth over three Israeli individuals and four entities in response to “escalating settler violence against Palestinians in the West Bank”.The ",
+    "published": "Tue, 02 Jun 2026 07:41:38 GMT",
     "source": "The Guardian - World"
   },
   {
     "title": "About 3 million workers on minimum wage to receive 4.75% pay rise in Fair Work Commission ruling",
     "link": "https://www.theguardian.com/australia-news/2026/jun/02/about-3-million-workers-on-minimum-wage-to-receive-475-pay-rise-in-fair-work-commission-ruling",
-    "summary": "Unions had demanded 6% pay increase for lowest paid after war in Middle East pushed inflation higherFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastNearly 3 million workers will receive a 4.75% pay rise, while about 100,000 of the coun",
-    "published": "Tue, 02 Jun 2026 00:26:11 GMT",
+    "summary": "Unions had demanded 6% pay increase for lowest paid after war in Middle East pushed inflation higherFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastAbout 100,000 of the country’s lowest paid employees will receive an above-inflation pa",
+    "published": "Tue, 02 Jun 2026 07:41:17 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Linda Reynolds repays nearly $9,000 after partner billed taxpayers to visit son in Melbourne",
-    "link": "https://www.theguardian.com/australia-news/2026/jun/02/linda-reynolds-repays-travel-allowance-family-reunion-partner-melbourne-ntwnfb",
-    "summary": "Former Liberal senator initially labelled ruling by parliamentary expenses authority ‘patently ridiculous’, saying visits were necessaryFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastFormer Liberal senator Linda Reynolds has paid back",
-    "published": "Mon, 01 Jun 2026 15:00:23 GMT",
+    "title": "Federal government paid $3.8m in personal protection for then CFMEU administrator",
+    "link": "https://www.theguardian.com/australia-news/2026/jun/02/federal-government-paid-38m-in-personal-protection-for-former-cfmeu-administrator-ntwnfb",
+    "summary": "Senate committee also hears Murray Watt needed personal security after sending the union into administrationGet our breaking news email, free app or daily news podcastThe federal government has paid millions of dollars in personal protection for the administrators of the CFMEU, and had to organise s",
+    "published": "Tue, 02 Jun 2026 07:36:15 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Deadly air raids across Ukraine after warnings of Russian strike wave",
+    "title": "EU accused of creating ICE-style immigration enforcement system",
+    "link": "https://www.theguardian.com/world/2026/jun/02/eu-accused-creating-ice-style-immigration-enforcement-system",
+    "summary": "Officials say law will improve migration management by allowing more deportations of undocumented people EU politicians have promised to increase deportations of undocumented migrants, under a new law that critics say mimics elements of the Trump administration’s brutal immigration crackdown.Finalis",
+    "published": "Tue, 02 Jun 2026 11:56:52 GMT",
+    "source": "The Guardian - World"
+  },
+  {
+    "title": "Nightclub promoter, 21, stabbed to death after brawl in Dublin’s tourism district",
+    "link": "https://www.theguardian.com/world/2026/jun/02/qayyum-balogun-nightclub-promoter-stabbed-to-death-dublin",
+    "summary": "Qayyum Balogun chased and attacked after gig ended in Grafton Street area following clash between rival groups, police sayA brawl in the heart of Dublin’s tourism district led to a nightclub promoter being chased and stabbed to death.It happened at about 3am on Monday after a gig ended in the Grafto",
+    "published": "Tue, 02 Jun 2026 11:00:58 GMT",
+    "source": "The Guardian - World"
+  },
+  {
+    "title": "Zelenskyy asks Trump to send missiles after Russian strikes across Ukraine",
     "link": "https://www.theguardian.com/world/2026/jun/02/ukraine-war-russia-air-raids-strike-kyiv-dnipro-kharkiv",
-    "summary": "Kyiv, Dnipro and Kharkiv hit, with apartment buildings among the targets according to officials, after president said intelligence predicted ‘massive strike’ Russian air raids on major Ukrainian centres including Kyiv, Dnipro and Kharkiv killed at least five people and wounded dozens by early mornin",
-    "published": "Tue, 02 Jun 2026 03:24:16 GMT",
+    "summary": "At least 18 killed, dozens injured and others trapped under collapsed buildings after attacks on five Ukrainian citiesVolodymyr Zelenskyy has asked Donald Trump to send Patriot missiles to Ukraine after a devastating Russian attack killed at least 18 people and injured dozens more.Russia launched 73",
+    "published": "Tue, 02 Jun 2026 10:20:00 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Denmark’s Mette Frederiksen agrees centre-left coalition after months of uncertainty",
+    "title": "Denmark’s Mette Frederiksen to lead four-party coalition after months of uncertainty",
     "link": "https://www.theguardian.com/world/2026/jun/01/denmarks-mette-frederiksen-agrees-centre-left-coalition-after-months-of-uncertainty",
-    "summary": "Social Democratic leader secures third consecutive term as prime minister amid crisis in ties with US over GreenlandDenmark’s Social Democratic leader, Mette Frederiksen, said on Monday she had agreed to form a centre-left coalition government, maintaining her grip on power amid a crisis in ties wit",
-    "published": "Mon, 01 Jun 2026 20:47:28 GMT",
+    "summary": "Social Democrat stays on for third consecutive term as PM and will outline key policies by the end of TuesdayDenmark’s new government is preparing to formally present its political programme after Mette Frederiksen negotiated a third consecutive term as prime minister, this time at the head of a fou",
+    "published": "Tue, 02 Jun 2026 09:06:39 GMT",
     "source": "The Guardian - World"
   },
   {
@@ -483,17 +371,24 @@
     "source": "The Guardian - World"
   },
   {
-    "title": "Cyclist praised for rescuing four people who nearly drowned in Ruhr, Germany",
-    "link": "https://www.theguardian.com/world/2026/jun/01/cyclist-rescue-people-who-nearly-drowned-ruhr-germany",
-    "summary": "Family were enjoying a waterside barbecue in Bochum before members ended up in jeopardy in riverA cyclist has been praised for having “stepped in decisively” and rescuing four members of a family who nearly drowned in the Ruhr River in Germany during a waterside barbecue that almost ended in tragedy",
-    "published": "Mon, 01 Jun 2026 11:59:55 GMT",
+    "title": "Middle East crisis live: Conflict continues in Lebanon despite Trump hailing Israeli-Hezbollah de-escalation",
+    "link": "https://www.theguardian.com/world/live/2026/jun/02/iran-us-israel-lebanon-trump-netanyahu-hezbollah-beirut-hormuz-talks-oil-latest-news-updates",
+    "summary": "Israeli military says it intercepted missiles from Lebanon this morning while Netanyahu says his forces will continue operating in the south of the countryTrump says Hezbollah and Israel have agreed to ‘stop all shooting’Israel’s weapons exports has reached an all-time high for a fifth year running,",
+    "published": "Tue, 02 Jun 2026 12:36:33 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "‘What happened to the testicles?’: mockery in Milan over bull mosaic’s restoration",
-    "link": "https://www.theguardian.com/world/2026/jun/01/milan-mockery-rampant-bull-mosaic-restoration-refurbishment-testicles-castrated",
-    "summary": "Rampant Bull needed a makeover after wear and tear from tourists, but refurbishment ‘castrated’ it, critics sayThe restoration of a floor mosaic in Milan called the Rampant Bull has been mocked after the works appear to have erased a crucial anatomical detail – its testicles.The 19th-century mosaic ",
-    "published": "Mon, 01 Jun 2026 11:48:37 GMT",
+    "title": "Aipac affiliate has funded lavish trips to Israel for dozens of Congress members since 7 October, filings reveal",
+    "link": "https://www.theguardian.com/us-news/2026/jun/02/aipac-aief-congress-israel-travel",
+    "summary": "Revealed: AIEF, a charitable affiliate of pro-Israel lobby Aipac, has spent millions on travel for lawmakers from both parties, even as voters’ support for Israel plummetsDozens of members of Congress and Capitol Hill staffers have enjoyed lavish gifted travel to Israel funded by an Aipac affiliate ",
+    "published": "Tue, 02 Jun 2026 11:00:03 GMT",
+    "source": "The Guardian - World"
+  },
+  {
+    "title": "UK government has failed Palestinian people, says senior Labour MP",
+    "link": "https://www.theguardian.com/politics/2026/jun/02/uk-government-failed-palestinian-people-emily-thornberry",
+    "summary": "Emily Thornberry criticises Israel’s ‘staggering’ sense of impunity and rebukes Donald Trump for abandoning GazaThe UK government has let down Palestinian people and failed to make it economically impossible for Israel to continue to act with impunity in the West Bank and Gaza, the Labour chair of t",
+    "published": "Tue, 02 Jun 2026 08:27:29 GMT",
     "source": "The Guardian - World"
   },
   {
@@ -508,27 +403,6 @@
     "link": "https://www.theguardian.com/world/2026/jun/01/european-leaders-condemn-israel-incursion-into-lebanon",
     "summary": "Declaration comes after Iran had pulled out of peace talks in protest at Israeli offensive in LebanonDonald Trump has said Hezbollah and Israel have agreed to mutual de-escalation and to scale back fighting, seemingly averting an Israeli strike on Beirut and the potential collapse of ceasefire talks",
     "published": "Mon, 01 Jun 2026 18:56:51 GMT",
-    "source": "The Guardian - World"
-  },
-  {
-    "title": "Iran threatens to suspend peace talks after ‘violation of ceasefire’ in Lebanon",
-    "link": "https://www.theguardian.com/world/2026/jun/01/iran-strikes-us-military-base-kuwait-iranian-air-defences",
-    "summary": "Tehran says it holds Israel and US responsible, while Trump says ‘going silent’ on negotiations ‘would be very good’Middle East live – latest updatesIran has indicated it will suspend peace talks with the US in protest against Israel’s offensive in Lebanon, threatening the collapse of negotiations w",
-    "published": "Mon, 01 Jun 2026 17:48:00 GMT",
-    "source": "The Guardian - World"
-  },
-  {
-    "title": "‘A shock to all Lebanese’: Israel sends a message as it takes ancient fort",
-    "link": "https://www.theguardian.com/world/2026/jun/01/israel-sends-message-beaufort-castle-lebanon",
-    "summary": "Conquering of Beaufort Castle for first time in 26 years brings back memories of occupation of southMiddle East crisis – live updatesWhen Hussain Alawieh used to take tourists to Beaufort Castle, they would marvel at the view. The ancient hilltop fort, captured nearly 1,000 years earlier by Crusader",
-    "published": "Mon, 01 Jun 2026 15:54:18 GMT",
-    "source": "The Guardian - World"
-  },
-  {
-    "title": "Israel seizes strategic castle in deepest incursion into Lebanon in 26 years",
-    "link": "https://www.theguardian.com/world/2026/may/31/israel-pursuing-scorced-earth-policy-says-lebanon-pm-as-more-airstrikes-hit-countrys-south",
-    "summary": "Experts say capture is largely symbolic, but it complicates efforts to extend the ceasefire between US and IranIsraeli troops have captured a clifftop castle as they made their deepest incursion into Lebanon in more than 26 years, further shattering a nominal US-brokered ceasefire and complicating e",
-    "published": "Sun, 31 May 2026 16:51:41 GMT",
     "source": "The Guardian - World"
   },
   {
@@ -567,248 +441,248 @@
     "source": "The Guardian - World"
   },
   {
-    "title": "UK’s growing green economy worth more than £100bn a year, research finds",
-    "link": "https://www.theguardian.com/environment/2026/jun/02/uk-green-economy-worth-more-than-100bn-a-year-net-zero",
-    "summary": "Net zero industry accounts for more than a million jobs and benefits whole  country, according to CBI EconomicsMore than a million jobs, higher wages, nearly half a trillion pounds in investment in the pipeline – the UK’s green economy is powering ahead, according to research by the country’s leadin",
-    "published": "Mon, 01 Jun 2026 23:01:31 GMT",
+    "title": "Home secretary giving statement on stab victim handcuffed by police while dying – UK politics live",
+    "link": "https://www.theguardian.com/politics/live/2026/jun/02/peter-mandelson-keir-starmer-labour-leadership-snp-peter-murrell-latest-news-updates",
+    "summary": "The 18-year-old student, Henry Nowak, was falsely accused of racism by his murderer when police arrivedBBC Scotland has more details of the Peter Murrell hearing this morning on its live blog. And, on its live blog, Sky News has pictures of some of the items purchased by Murrell with stolen SNP fund",
+    "published": "Tue, 02 Jun 2026 12:46:05 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Reform UK support could plateau as it relies on socially conservative views, study finds",
-    "link": "https://www.theguardian.com/politics/2026/jun/02/reform-uk-support-could-plateau-relies-on-conservative-views-study-finds",
-    "summary": "Party could struggle to push ratings as strategy increasingly focuses on views held by minority of voters, research findsReform UK is becoming increasingly reliant on socially conservative views for political support, and therefore could struggle to push its poll ratings much higher, a large-scale r",
-    "published": "Mon, 01 Jun 2026 23:01:30 GMT",
+    "title": "Maga influencer Melissa Rein Lively pleads guilty to London assault",
+    "link": "https://www.theguardian.com/uk-news/2026/jun/02/maga-influencer-melissa-rein-lively-pleads-guilty-london-assault",
+    "summary": "Founder of ‘anti-woke’ PR firm to pay £910 to woman whose hair she pulled at Bond Street tube station last OctoberA Maga influencer has admitted assaulting a woman at a London tube station during an altercation.Melissa Rein Lively, 40, the founder of the “anti-woke” America First Public Relations fi",
+    "published": "Tue, 02 Jun 2026 12:42:22 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Sadiq Khan vows to overrule residents’ group’s objections to Soho bars and restaurants",
-    "link": "https://www.theguardian.com/politics/2026/jun/01/khan-vows-to-overrule-residents-groups-objections-to-soho-bars-and-restaurants",
-    "summary": "London mayor says Soho Society’s decision to challenge all new licensing applications is ‘bad’ for citySadiq Khan, the London mayor, has suggested he will overrule a residents’ society that has vowed to challenge all new applications for pubs and restaurants in Soho.The Guardian revealed last week t",
-    "published": "Mon, 01 Jun 2026 21:17:26 GMT",
+    "title": "Motorhome bought by Murrell with stolen SNP money was driven only 4 miles, court told",
+    "link": "https://www.theguardian.com/uk-news/2026/jun/02/motorhome-peter-murrell-snp-money-high-court-edinburgh",
+    "summary": "High court in Edinburgh hears £125K vehicle was described as a van in faked invoice and stocked with luxury goodsThe luxury motorhome that Peter Murrell bought using money stolen from the Scottish National party was driven for only four miles, sitting unused for more than two years.Murrell, then the",
+    "published": "Tue, 02 Jun 2026 12:29:41 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Mandelson received sensitive Foreign Office briefings before vetting finished",
-    "link": "https://www.theguardian.com/politics/2026/jun/01/mandelson-received-sensitive-foreign-office-briefings-before-vetting-finished",
-    "summary": "Documents also reveal internal Labour criticism of Keir Starmer in embarrassing detailPeter Mandelson was receiving sensitive security briefings about the Foreign Office’s work, and was in discussions with the head of MI6, before he had completed the developed vetting process, newly released documen",
-    "published": "Mon, 01 Jun 2026 20:54:10 GMT",
+    "title": "Gardeners beware: slugs returning after dry weather to threaten strawberries",
+    "link": "https://www.theguardian.com/lifeandstyle/2026/jun/02/gardens-slugs-returning-after-dry-weather-threaten-strawberries",
+    "summary": "Wetter weather expected to bring surge of slugs out of hiding, just as strawberries experience bumper early crop Entomologists in England are expecting a surge in slugs coming out of hiding to munch the nation’s strawberry plants after weeks of sun followed by wetter weather has caused a bumper crop",
+    "published": "Tue, 02 Jun 2026 12:01:38 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Ex-Police Federation boss confident he will be exonerated of corruption claims",
-    "link": "https://www.theguardian.com/uk-news/2026/jun/01/ex-police-federation-boss-confident-he-will-be-exonerated-of-corruption-claims",
-    "summary": "Exclusive: Mukund Krisha says he will fight allegations and is proud of his record at the staff associationThe former head of the Police Federation of England and Wales who was arrested on suspicion of corruption has told the Guardian he is confident he will be “entirely exonerated” and is “proud” o",
-    "published": "Mon, 01 Jun 2026 20:17:02 GMT",
+    "title": "BP backs Amanda Blanc to lead search for new chair despite investor concerns",
+    "link": "https://www.theguardian.com/business/2026/jun/02/bp-amanda-blanc-search-new-chair-albert-manifold",
+    "summary": "Senior independent director to handle process again after Albert Manifold’s shock departure last weekBusiness live – latest updatesBP has backed Amanda Blanc to lead its search for a new chair for a second time, shrugging off investor concerns over her role at the company after the shock departure o",
+    "published": "Tue, 02 Jun 2026 11:13:00 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Blake Lively and Justin Baldoni return to court a month after reaching settlement",
-    "link": "https://www.theguardian.com/film/2026/jun/02/blake-lively-justin-baldoni-return-to-court-after-reaching-settlement",
-    "summary": "Lively’s legal team are suing her It Ends with Us co-star for legal fees and damages, reigniting a years-long court battleAttorneys for US actor Blake Likely were back in front of a New York judge on Monday to demand legal fees and damages from It Ends with Us co-star Justin Baldoni, after a settlem",
-    "published": "Tue, 02 Jun 2026 02:47:58 GMT",
+    "title": "Voters cast ballots in several states as California governor primary goes down to the wire – live",
+    "link": "https://www.theguardian.com/us-news/live/2026/jun/02/donald-trump-primaries-midterms-california-governor-iran-latest-news-updates",
+    "summary": "California voters must decide top two candidates to advance in governor’s race; Iowa, Montana, New Jersey, South Dakota and New Mexico also hold primariesSign up for the Breaking News US emailCalifornia elections: governor, LA mayor and Congress at stake While all eyes will be on California’s govern",
+    "published": "Tue, 02 Jun 2026 12:40:13 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Trump reportedly mulling retreat from $1.8bn ‘anti-weaponization’ fund",
-    "link": "https://www.theguardian.com/us-news/2026/jun/01/senate-democrats-challenge-trump-slush-fund",
-    "summary": "Democrats decry president’s ‘most brazen act of self-dealing yet’ and vow to challenge fund in CongressDonald Trump is reconsidering whether to keep pressing for a $1.8bn fund to compensate his allies, a person familiar with his thinking said on Monday, as the justice department paused the program t",
-    "published": "Tue, 02 Jun 2026 01:52:28 GMT",
+    "title": "‘Outright theft’: legal experts decry $1.8bn Trump anti-weaponization fund",
+    "link": "https://www.theguardian.com/us-news/2026/jun/02/trumps-anti-weaponization-slush-fund-allies",
+    "summary": "Critics from both sides and legal scholars say ‘slush fund’ is scheme that will help January 6 riotersA legal and political firestorm is growing over the $1.776bn “anti-weaponization” fund Donald Trump’s justice department has launched to pay alleged victims of “lawfare”, but that ex-DoJ officials a",
+    "published": "Tue, 02 Jun 2026 12:06:05 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Pentagon bars journalists from entering its press office citing re-designation",
-    "link": "https://www.theguardian.com/us-news/2026/jun/01/pentagon-journalists-press-office-access-revoked",
-    "summary": "Revocation of access newest attempt by Trump’s defense department to restrict reporting on military affairsJournalists may no longer enter the Pentagon’s press office, which has been designated as a classified space amid growing moves to restrict press access to the defense department.“This is the m",
-    "published": "Tue, 02 Jun 2026 00:23:51 GMT",
+    "title": "Democrats oppose Trump officials’ effort to include crypto in 401(k) plans",
+    "link": "https://www.theguardian.com/us-news/2026/jun/02/democrats-trump-401k",
+    "summary": "Change backed by labor department would expose workers to greater financial risk, letter shared with Guardian saysCongressional Democrats are strongly opposing a US Department of Labor proposal that would allow 401(k) investments to include cryptocurrency, private credit and private equity assets, a",
+    "published": "Tue, 02 Jun 2026 12:00:22 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "White Castle adds veggie burger to menu as plant-based eating grows",
-    "link": "https://www.theguardian.com/us-news/2026/jun/01/white-castle-veggie-burger-menu",
-    "summary": "Ohio-based slider chain introduces Southwest Veggie Slider permanently after customer feedback for meatless optionVegetarians have a new reason to celebrate: White Castle has added a permanent meat-free option to its menu.On Monday, the Columbus, Ohio-based slider chain announced the launch of the S",
-    "published": "Mon, 01 Jun 2026 22:57:20 GMT",
+    "title": "First Thing: Defense department bars reporters from Pentagon press room",
+    "link": "https://www.theguardian.com/us-news/2026/jun/02/first-thing-defense-department-bars-reporters-pentagon-press-room",
+    "summary": "Spokesperson claims Trump administration has ‘the most transparent war department in history’ despite ban on journalists using Pentagon facility. Also, more than 1,000 Marilyn Monroes descend on Palm SpringsDon’t already get First Thing in your inbox? Sign up hereGood morning.In another apparent aff",
+    "published": "Tue, 02 Jun 2026 10:47:45 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "Several protesters arrested at New Jersey ICE facility as clashes continue",
-    "link": "https://www.theguardian.com/us-news/2026/jun/01/new-jersey-ice-detention-center-protests",
-    "summary": "Dozens reportedly arrested for defying curfew at Delaney Hall in Newark amid hunger and labor strikes at facilityOn Monday afternoon, over an hour south of Newark, a few dozen protesters outside the New Jersey state legislature in Trenton condemned Democratic governor Mikie Sherrill’s decision to se",
-    "published": "Mon, 01 Jun 2026 22:43:35 GMT",
+    "title": "Iowa shootings: gunman suspected of killing six relatives then himself",
+    "link": "https://www.theguardian.com/us-news/2026/jun/02/iowa-shooting-domestic-gunman-suspected-killing-relatives-then-himself",
+    "summary": "Police say four found dead in Muscatine home and two elsewhere in apparent ‘domestic-related dispute’ and suspect took own life while speaking to officersAuthorities in Iowa are investigating the fatal shootings of six people who they believe were killed by a relative who took his own life when conf",
+    "published": "Tue, 02 Jun 2026 04:51:45 GMT",
     "source": "The Guardian - World"
   },
   {
-    "title": "US Defense Department bars journalists from its press office",
-    "link": "https://www.aljazeera.com/economy/2026/6/2/us-defense-department-bars-journalists-from-its-press-office?traffic_source=rss",
-    "summary": "Media freedom advocates condemn move as latest effort to curtail independent reporting on the US military.",
-    "published": "Tue, 02 Jun 2026 02:13:10 +0000",
+    "title": "Southampton backs ‘spygate’ Eckert despite world’s most lucrative game miss",
+    "link": "https://www.aljazeera.com/sports/2026/6/2/southampton-back-spygate-eckert-despite-worlds-most-lucrative-game-miss?traffic_source=rss",
+    "summary": "Southampton back Tonda Eckert despite missing out on a playoff final for a Premier League place due to spying scandal.",
+    "published": "Tue, 02 Jun 2026 12:04:19 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "President Trump attempts to end hostilities in Lebanon",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/2/president-trump-attempts-to-end-hostilities-in-lebanon?traffic_source=rss",
-    "summary": "US President Trump claims a diplomatic breakthrough after speaking with Israeli PM to halt escalation toward Beirut.",
-    "published": "Tue, 02 Jun 2026 01:48:49 +0000",
+    "title": "Mamdani signs ‘executive order’ letting kids stay up late for NBA Finals",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/2/mamdani-signs-executive-order-letting-kids-stay-up-late-for-nba-finals?traffic_source=rss",
+    "summary": "Mamdani signs ‘executive order’ letting kids stay up late for NBA Finals.",
+    "published": "Tue, 02 Jun 2026 12:00:46 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Celebration, shock and scepticism follow Colombia’s presidential election",
-    "link": "https://www.aljazeera.com/news/2026/6/2/celebration-shock-and-scepticism-follow-colombias-presidential-election?traffic_source=rss",
-    "summary": "Far-right lawyer Abelardo de la Espriella beat left-wing Senator Ivan Cepeda in the first round, upending expectations.",
-    "published": "Tue, 02 Jun 2026 01:00:56 +0000",
+    "title": "What are the FIFA World Cup 2026 squads for all 48 teams?",
+    "link": "https://www.aljazeera.com/sports/2026/6/2/fifa-world-cup-2026-full-squads-48-teams-players?traffic_source=rss",
+    "summary": "From icons bidding adieu, to upcoming stars looking to make their mark on the biggest, Al Jazeera lists all the players.",
+    "published": "Tue, 02 Jun 2026 11:57:59 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Iran war live: Trump talks to Hezbollah, Israel as Lebanon fighting surges",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/6/2/iran-war-live-trump-talks-to-hezbollah-israel-as-lebanon-fighting-surges?traffic_source=rss",
-    "summary": "Israeli National Security Minister Ben-Gvir says 'time' to say 'no' to Trump and continue striking Hezbollah in Lebanon.",
-    "published": "Tue, 02 Jun 2026 00:00:00 +0000",
+    "title": "Underground drug smuggling tunnel discovered from Tijuana to San Diego",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/2/underground-drug-smuggling-tunnel-discovered-from-tijuana-to-san-diego?traffic_source=rss",
+    "summary": "A tunnel was discovered running underneath the US-Mexico border, allegedly used to smuggle drugs and weapons.",
+    "published": "Tue, 02 Jun 2026 11:44:01 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Ultra-Orthodox protesters clash with Israeli police over army draft",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/ultra-orthodox-protesters-clash-with-israeli-police-over-army-draft?traffic_source=rss",
-    "summary": "Police seen dragging ultra-Orthodox protesters from under a bus after they blocked roads in Jerusalem over conscription.",
-    "published": "Mon, 01 Jun 2026 23:36:03 +0000",
+    "title": "Every world leader who has visited China in 2026 in one chart",
+    "link": "https://www.aljazeera.com/news/2026/6/2/every-world-leader-who-has-visited-china-in-2026-in-one-chart?traffic_source=rss",
+    "summary": "China has hosted 26 leaders from 23 countries this year, underscoring its growing diplomatic and economic influence.",
+    "published": "Tue, 02 Jun 2026 11:28:02 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Violent protests erupt in Chile over government cuts of social programmes",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/aje-onl-nf_clip_violent-protests-erupt-in-chile-010626?traffic_source=rss",
-    "summary": "Labour unions and student groups protested in Chile as President Kast delivered his first State of the Nation.",
-    "published": "Mon, 01 Jun 2026 23:22:52 +0000",
+    "title": "Israel kills five in attacks on Lebanon after Trump announces de-escalation",
+    "link": "https://www.aljazeera.com/news/2026/6/2/israel-kills-five-in-attacks-on-lebanon-after-trump-announces-de-escalation?traffic_source=rss",
+    "summary": "The deadly attacks raise concerns about the reported agreement on the cessation of hostilities.",
+    "published": "Tue, 02 Jun 2026 11:25:22 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "US court upholds injunction against Trump policy banning transgender troops",
-    "link": "https://www.aljazeera.com/news/2026/6/1/us-court-upholds-injunction-against-trump-policy-banning-transgender-troops?traffic_source=rss",
-    "summary": "The decision was split, allowing the Trump administration to continue barring transgender people from enlisting.",
-    "published": "Mon, 01 Jun 2026 23:22:10 +0000",
+    "title": "Trump says Israel, Hezbollah to stop fighting: What we know",
+    "link": "https://www.aljazeera.com/news/2026/6/2/trump-says-israel-hezbollah-to-stop-fighting-what-we-know?traffic_source=rss",
+    "summary": "Netanyahu agrees to halt operations near Beirut; Hezbollah to stop attacks on Israel under new truce arrangement.",
+    "published": "Tue, 02 Jun 2026 11:21:29 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Who attended this year’s Israel Day Parade in New York?",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/who-attended-this-years-israel-day-parade-in-new-york?traffic_source=rss",
-    "summary": "Al Jazeera’s Ava Warriner takes a look at the Israeli and US officials who joined the annual Israel Day parade.",
-    "published": "Mon, 01 Jun 2026 21:15:08 +0000",
+    "title": "How social media is turning African life into content at a cost",
+    "link": "https://www.aljazeera.com/features/2026/6/2/how-social-media-is-turning-african-life-into-content-at-a-cost?traffic_source=rss",
+    "summary": "Across Africa, social media redefines politics, culture, identity, and connection, blurring community and performance.",
+    "published": "Tue, 02 Jun 2026 11:19:10 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Video: Presidential election has Colombia on edge",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/video-presidential-election-has-colombia-on-edge?traffic_source=rss",
-    "summary": "Abelardo de la Espriella will face left-wing Senator Ivan Cepeda in the run-off for Colombia’s presidential election.",
-    "published": "Mon, 01 Jun 2026 21:08:44 +0000",
+    "title": "Refugee women in CAR face childbirth risks amid US funding cuts",
+    "link": "https://www.aljazeera.com/gallery/2026/6/2/refugee-women-in-car-face-childbirth-risks-amid-us-funding-cuts?traffic_source=rss",
+    "summary": "Limited staffing and supplies force pregnant women in CAR to give birth at home, increasing risks of preventable deaths.",
+    "published": "Tue, 02 Jun 2026 11:14:18 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Foreign Christians ask for forgiveness over failure to support Israel at Knesset",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/foreign-christians-ask-for-forgiveness-over-failure-to-support-israel-at-knesset?traffic_source=rss",
-    "summary": "‘Lord, please forgive us for all the things that we did that we did not support Israel.’",
-    "published": "Mon, 01 Jun 2026 21:01:11 +0000",
+    "title": "How the war has made Iran’s water crisis worse",
+    "link": "https://www.aljazeera.com/news/2026/6/2/how-the-war-has-made-irans-water-crisis-worse?traffic_source=rss",
+    "summary": "Attacks on desalination plants and other water infrastructure by US and Israel have further added to the water woes.",
+    "published": "Tue, 02 Jun 2026 11:13:00 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Denmark gets new government as Greenland crisis persists",
-    "link": "https://www.aljazeera.com/news/2026/6/1/denmark-gets-new-government-as-greenland-crisis-persists?traffic_source=rss",
-    "summary": "End of election deadlock will see PM Frederiksen continue her stewardship of response to Trump's Greenland lust.",
-    "published": "Mon, 01 Jun 2026 20:56:39 +0000",
+    "title": "US gunman kills six family members and takes his own life",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/2/us-gunman-kills-six-family-members-and-takes-his-own-life?traffic_source=rss",
+    "summary": "US gunman kills six family members and takes his own life",
+    "published": "Tue, 02 Jun 2026 10:46:58 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Kenyans protest Ebola quarantine centre for US citizens",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/kenyans-protest-ebola-quarantine-centre-for-us-citizens?traffic_source=rss",
-    "summary": "Hundreds have protested in central Kenya against a US-funded plan to quarantine Americans exposed to Ebola there.",
-    "published": "Mon, 01 Jun 2026 20:23:08 +0000",
+    "title": "World Cup: No ICE deployment; extra security for Iran games in Los Angeles",
+    "link": "https://www.aljazeera.com/sports/2026/6/2/world-cup-no-ice-deployment-extra-security-for-iran-games-in-los-angeles?traffic_source=rss",
+    "summary": "Federal agents will be present during the World Cup, but immigration enforcement will not occur, county sheriff says.",
+    "published": "Tue, 02 Jun 2026 10:32:11 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Is the US-backed Gaza peace process in serious danger?",
-    "link": "https://www.aljazeera.com/video/inside-story/2026/6/1/is-the-u-s-backed-gaza-peace-process-in-serious-danger?traffic_source=rss",
-    "summary": "Israel killing more Palestinians, moves to seize 70 percent of Gaza Strip",
-    "published": "Mon, 01 Jun 2026 20:14:11 +0000",
+    "title": "Massive fire engulfs Jakarta market leaving hundreds homeless",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/2/massive-fire-engulfs-jakarta-market-leaving-hundreds-homeless?traffic_source=rss",
+    "summary": "Hundreds of people have been made homeless after a huge fire tore through a market in Jakarta.",
+    "published": "Tue, 02 Jun 2026 10:27:04 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Protesters call on Kenyan government to halt femicide crisis",
-    "link": "https://www.aljazeera.com/news/2026/6/1/protesters-call-on-kenyan-government-to-halt-femicide-crisis?traffic_source=rss",
-    "summary": "Advocacy groups have given the government 40 days to intervene to deal with the plague of gender-based violence.",
-    "published": "Mon, 01 Jun 2026 20:13:16 +0000",
+    "title": "Australia, don’t conflate anti-Semitism with criticism of Israel",
+    "link": "https://www.aljazeera.com/opinions/2026/6/2/australia-dont-conflate-anti-semitism-with-criticism-of-israel?traffic_source=rss",
+    "summary": "The anti-Semitism commission should protect Jewish Australians from hatred, not shield Israel from accountability.",
+    "published": "Tue, 02 Jun 2026 10:02:31 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Armenian PM rejects Russia’s demand for EU referendum as relations nosedive",
-    "link": "https://www.aljazeera.com/news/2026/6/1/armenian-pm-rejects-russias-demand-for-eu-referendum-as-relations-nosedive?traffic_source=rss",
-    "summary": "Russia is raising the pressure on Armenia as traditional ally looks to the West.",
-    "published": "Mon, 01 Jun 2026 20:10:05 +0000",
+    "title": "How does Iran’s leadership view the emerging deal with the US?",
+    "link": "https://www.aljazeera.com/news/2026/6/2/how-does-irans-leadership-view-the-emerging-deal-with-the-us-2?traffic_source=rss",
+    "summary": "Iranian authorities reject capitulation, but there are subtle differences between various factions.",
+    "published": "Tue, 02 Jun 2026 09:59:46 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Trump halts $1.8bn ‘anti-weaponisation’ fund amid bipartisan backlash",
-    "link": "https://www.aljazeera.com/news/2026/6/1/trump-halts-1-8bn-anti-weaponisation-fund-amid-bipartisan-backlash?traffic_source=rss",
-    "summary": "The announcement comes after Trump met with congressional Republicans over concerns about his settlement with the IRS.",
-    "published": "Mon, 01 Jun 2026 20:07:26 +0000",
+    "title": "Somalia needs a political settlement before it is too late",
+    "link": "https://www.aljazeera.com/opinions/2026/6/2/somalia-needs-a-political-settlement-before-it-is-too-late?traffic_source=rss",
+    "summary": "Somalia is entering a dangerous moment without a path to elections or a political transition.",
+    "published": "Tue, 02 Jun 2026 09:30:16 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Former election clerk Tina Peters released after Trump pressure campaign",
-    "link": "https://www.aljazeera.com/news/2026/6/1/former-election-clerk-tina-peters-released-after-trump-pressure-campaign?traffic_source=rss",
-    "summary": "Peters had been sentenced to nine years in state prison after allowing access to Colorado state voting machines.",
-    "published": "Mon, 01 Jun 2026 19:38:21 +0000",
+    "title": "High Court orders Kenya government to release details of Ebola facility",
+    "link": "https://www.aljazeera.com/news/2026/6/2/high-court-orders-kenya-government-to-release-details-of-ebola-facility?traffic_source=rss",
+    "summary": "Hundreds of people took to the streets in the central Kenyan town of Nanyuki to protest against the planned site.",
+    "published": "Tue, 02 Jun 2026 09:20:44 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Gaza-bound aid ship begins voyage from Sweden",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/gaza-bound-aid-ship-begins-voyage-from-sweden?traffic_source=rss",
-    "summary": "A Gaza-bound ship carrying aid began its voyage from Sweden, weeks after Israeli forces intercepted a previous aid ship.",
-    "published": "Mon, 01 Jun 2026 19:09:14 +0000",
+    "title": "‘Like mice in a cage’: Inside Europe’s prison overcrowding crisis",
+    "link": "https://www.aljazeera.com/news/2026/6/2/like-mice-in-a-cage-inside-europes-prison-overcrowding-crisis?traffic_source=rss",
+    "summary": "In some of Europe’s richest countries, including Belgium, overcrowding is driving a severe deterioration of conditions.",
+    "published": "Tue, 02 Jun 2026 08:42:32 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Kenyans protest planned US Ebola quarantine facility",
-    "link": "https://www.aljazeera.com/news/2026/6/1/kenyans-protest-planned-us-ebola-quarantine-facility?traffic_source=rss",
-    "summary": "Hundreds protest near the site of the planned facility, which would serve US nationals exposed to the virus.",
-    "published": "Mon, 01 Jun 2026 19:07:47 +0000",
+    "title": "Tennis stars rejoice as Serena Williams announces competitive comeback",
+    "link": "https://www.aljazeera.com/sports/2026/6/2/tennis-stars-rejoice-as-serena-williams-announces-competitive-comeback?traffic_source=rss",
+    "summary": "The 44-year-old will return at the Queen's Club Championships this month after receiving women's doubles wildcard entry.",
+    "published": "Tue, 02 Jun 2026 08:40:45 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "AI giant Anthropic files for US IPO as investors bet big on AI future",
-    "link": "https://www.aljazeera.com/economy/2026/6/1/ai-giant-anthropic-files-for-us-ipo-as-investors-bet-big-on-ai-future?traffic_source=rss",
-    "summary": "Anthropic, which operates AI chatbot Claude, did not disclose the size or the terms of the offering.",
-    "published": "Mon, 01 Jun 2026 18:46:28 +0000",
+    "title": "France World Cup 2026 preview: Players to watch, group matches and squad",
+    "link": "https://www.aljazeera.com/sports/2026/6/2/france-world-cup-2026-preview-players-to-watch-group-matches-and-squad?traffic_source=rss",
+    "summary": "Departing Deschamps looks to win second title with side led by superstar forwards Kylian Mbappe and Ousmane Dembele.",
+    "published": "Tue, 02 Jun 2026 08:39:07 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Israeli strike damages hospital in southern Lebanon",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/israeli-strike-damages-hospital-in-southern-lebanon?traffic_source=rss",
-    "summary": "An Israeli attack near Jabal Amel Hospital in Tyre has destroyed wards and medical equipment.",
-    "published": "Mon, 01 Jun 2026 18:05:12 +0000",
+    "title": "Huge Messi statue taken down in India over safety fears",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/2/huge-messi-statue-taken-down-in-india-over-safety-fears?traffic_source=rss",
+    "summary": "Huge Messi statue taken down in India over safety fears.",
+    "published": "Tue, 02 Jun 2026 08:33:19 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Ethiopians head to polls as millions excluded from elections",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/ethiopians-head-to-polls-as-millions-excluded-from-elections?traffic_source=rss",
-    "summary": "Ethiopians head to polls as millions excluded from elections.",
-    "published": "Mon, 01 Jun 2026 17:49:21 +0000",
+    "title": "Nigerian drifters build track, dream of Formula One",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/2/nigerian-drifters-build-track-dream-of-formula-one?traffic_source=rss",
+    "summary": "Nigerian drifters build track, dream of Formula One",
+    "published": "Tue, 02 Jun 2026 08:26:44 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Activists plaster missing posters around Mexico stadiums ahead of World Cup",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/1/activists-plaster-missing-posters-around-mexico-stadiums-ahead-of-world-cup?traffic_source=rss",
-    "summary": "Activists put up missing persons posters to raise awareness of the disappearance crisis ahead of the 2026 World Cup.",
-    "published": "Mon, 01 Jun 2026 17:43:53 +0000",
+    "title": "Norway salvages 18th-century shipwreck, recovers porcelain and chandelier",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/2/norway-salvages-18th-century-shipwreck-recovers-porcelain-and-chandelier?traffic_source=rss",
+    "summary": "Archaeologists recovered Chinese porcelain and European goods from an 18th-century shipwreck found in southern Norway.",
+    "published": "Tue, 02 Jun 2026 08:21:38 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Former general for Syria’s Assad pleads not guilty in torture trial",
-    "link": "https://www.aljazeera.com/news/2026/6/1/former-officials-from-syrias-assad-plead-not-guilty-in-torture-trial?traffic_source=rss",
-    "summary": "Brigadier General Khaled al-Halabi faces charges of aggravated torture, coercion, sexual coercion and bodily harm.",
-    "published": "Mon, 01 Jun 2026 17:29:52 +0000",
+    "title": "Hailstorm hits Denver and causes widespread disruption",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/6/2/hailstorm-hits-denver-and-causes-widespread-disruption-2?traffic_source=rss",
+    "summary": "A powerful hailstorm swept through the US city of Denver, bringing hailstones reportedly as large as golf balls.",
+    "published": "Tue, 02 Jun 2026 08:06:12 +0000",
     "source": "Al Jazeera"
   },
   {
-    "title": "Nvidia unveils new chip to bring AI directly to personal computers",
-    "link": "https://www.aljazeera.com/economy/2026/6/1/nvidia-unveils-new-chip-to-bring-ai-directly-to-personal-computers?traffic_source=rss",
-    "summary": "Nvidia's new chip will power new Windows laptop and desktop computer models to make 'AI personal computers'.",
-    "published": "Mon, 01 Jun 2026 17:27:38 +0000",
+    "title": "Mozambique says 5 citizens killed in ‘xenophobic attacks’ in South Africa",
+    "link": "https://www.aljazeera.com/news/2026/6/2/mozambique-says-5-citizens-killed-in-xenophobic-attacks-in-south-africa?traffic_source=rss",
+    "summary": "The violence prompted 300 Mozambicans to return home over the weekend.",
+    "published": "Tue, 02 Jun 2026 07:54:37 +0000",
     "source": "Al Jazeera"
   }
 ]
