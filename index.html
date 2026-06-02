@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>环球速览 — 每日国际新闻</title>
+<style>
+/* ========== CSS Variables ========== */
+:root {
+  --bg: #f5f2ed;
+  --card-bg: #ffffff;
+  --text: #2c2416;
+  --text-secondary: #6b5e4a;
+  --text-muted: #9b8e7a;
+  --border: #e5ddd0;
+  --accent: #b8462c;
+  --accent-light: #fdf0ec;
+  --shadow: 0 1px 3px rgba(0,0,0,.04), 0 3px 12px rgba(0,0,0,.05);
+  --shadow-hover: 0 2px 6px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.08);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --max-width: 1100px;
+}
+
+/* ========== Source Colors ========== */
+.source-bbc       { --src-color: #b80000; --src-bg: #fff0f0; }
+.source-guardian  { --src-color: #052962; --src-bg: #eef2f8; }
+.source-aljazeera { --src-color: #f7941d; --src-bg: #fff8ed; }
+.source-nhk       { --src-color: #1a4472; --src-bg: #eef4fa; }
+.source-voa        { --src-color: #0068a5; --src-bg: #edf6fb; }
+.source-other      { --src-color: #5a4e3c; --src-bg: #f5f2ed; }
+
+/* ========== Reset & Base ========== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Noto Sans SC", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* ========== Header ========== */
+.header {
+  background: linear-gradient(135deg, #3d3220 0%, #5a3e1b 40%, #7a4a2c 100%);
+  color: #fdf8f0;
+  padding: 48px 24px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5 L55 30 L30 55 L5 30Z' fill='none' stroke='rgba(255,255,255,.04)' stroke-width='1'/%3E%3C/svg%3E") repeat;
+  opacity: 0.5;
+}
+.header-inner {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.header h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+}
+.header .subtitle {
+  font-size: 0.95rem;
+  opacity: 0.75;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+.header .date-display {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+/* ========== Container ========== */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+/* ========== Stats Bar ========== */
+.stats-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+.stat-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 20px;
+  text-align: center;
+  min-width: 120px;
+  box-shadow: var(--shadow);
+}
+.stat-item .stat-num {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.stat-item .stat-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ========== Controls ========== */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+/* Source Filter Tabs */
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+.filter-tab {
+  padding: 7px 18px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  transition: all var(--transition);
+  font-family: inherit;
+  white-space: nowrap;
+}
+.filter-tab:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.filter-tab.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+/* Search */
+.search-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+  max-width: 320px;
+}
+.search-wrap input {
+  width: 100%;
+  padding: 8px 14px 8px 38px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  font-size: 0.88rem;
+  font-family: inherit;
+  color: var(--text);
+  outline: none;
+  transition: border-color var(--transition);
+}
+.search-wrap input:focus {
+  border-color: var(--accent);
+}
+.search-wrap .search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  pointer-events: none;
+  font-size: 0.9rem;
+}
+
+/* ========== Loading / Empty / Error ========== */
+.loading-state,
+.empty-state,
+.error-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+}
+.loading-state .spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 16px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error-state .error-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+.error-state button {
+  margin-top: 16px;
+  padding: 10px 28px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+/* ========== News Grid ========== */
+.news-grid {
+  columns: 3 320px;
+  column-gap: 20px;
+}
+
+/* ========== News Card ========== */
+.news-card {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  box-shadow: var(--shadow);
+  transition: box-shadow var(--transition), transform var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.news-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-1px);
+}
+.news-card .card-source {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+.news-card .card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+.news-card .card-summary {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 14px;
+}
+.news-card .card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.news-card .card-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity var(--transition);
+}
+.news-card .card-link:hover {
+  opacity: 0.7;
+}
+.news-card .card-link::after {
+  content: ' →';
+}
+
+/* ========== Skeleton Cards ========== */
+.skeleton .skeleton-line {
+  background: linear-gradient(90deg, #eee 25%, #f5f5f5 50%, #eee 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: 4px;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.skeleton .sk-badge  { width: 70px;  height: 20px; margin-bottom: 12px; }
+.skeleton .sk-title  { height: 24px; margin-bottom: 8px; width: 90%; }
+.skeleton .sk-title2 { height: 24px; margin-bottom: 10px; width: 65%; }
+.skeleton .sk-desc   { height: 16px; margin-bottom: 6px; }
+.skeleton .sk-desc2  { height: 16px; margin-bottom: 14px; width: 80%; }
+.skeleton .sk-meta   { height: 16px; width: 50%; }
+
+/* ========== No Results ========== */
+.no-results {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
+  grid-column: 1 / -1;
+}
+
+/* ========== Footer ========== */
+.footer {
+  text-align: center;
+  padding: 24px 20px 32px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  margin-top: 20px;
+}
+.footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 700px) {
+  .header { padding: 36px 16px 30px; }
+  .container { padding: 16px 12px 40px; }
+  .news-grid { columns: 1; }
+  .news-card { padding: 18px 20px; }
+  .controls { flex-direction: column; align-items: stretch; }
+  .search-wrap { max-width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<!-- ========== Header ========== -->
+<header class="header">
+  <div class="header-inner">
+    <h1>环球速览</h1>
+    <p class="subtitle">每 日 国 际 新 闻  ·  数 据 驱 动  ·  自 动 采 集</p>
+    <p class="date-display" id="headerDate">--</p>
+  </div>
+</header>
+
+<!-- ========== Main Content ========== -->
+<div class="container">
+
+  <!-- Stats Bar -->
+  <div class="stats-bar" id="statsBar"></div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <div class="filter-tabs" id="filterTabs"></div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="搜索新闻标题或摘要…" />
+    </div>
+  </div>
+
+  <!-- News Grid -->
+  <div class="news-grid" id="newsGrid">
+    <!-- Skeleton loading -->
+    <div class="news-card skeleton">
+      <div class="skeleton-line sk-badge"></div>
+      <div class="skeleton-line sk-title"></div>
+      <div class="skeleton-line sk-title2"></div>
+      <div class="skeleton-line sk-desc"></div>
+      <div class="skeleton-line sk-desc2"></div>
+      <div class="skeleton-line sk-meta"></div>
+    </div>
+    <div class="news-card skeleton">
+      <div class="skeleton-line sk-badge"></div>
+      <div class="skeleton-line sk-title"></div>
+      <div class="skeleton-line sk-title2"></div>
+      <div class="skeleton-line sk-desc"></div>
+      <div class="skeleton-line sk-desc2"></div>
+      <div class="skeleton-line sk-meta"></div>
+    </div>
+    <div class="news-card skeleton">
+      <div class="skeleton-line sk-badge"></div>
+      <div class="skeleton-line sk-title"></div>
+      <div class="skeleton-line sk-title2"></div>
+      <div class="skeleton-line sk-desc"></div>
+      <div class="skeleton-line sk-desc2"></div>
+      <div class="skeleton-line sk-meta"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>数据源自 BBC World · The Guardian · Al Jazeera · NHK World · VOA News</p>
+    <p style="margin-top:4px;">由 <a href="https://github.com/siyuecarpediem-debug/daily-world-news" target="_blank">GitHub Actions</a> 每日自动采集 · 北京时间早 8:00 更新</p>
+  </footer>
+</div>
+
+<script>
+// ========== Constants ==========
+const REPO_OWNER = 'siyuecarpediem-debug';
+const REPO_NAME  = 'daily-world-news';
+const RAW_BASE   = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/output`;
+
+// ========== Source mapping ==========
+const SOURCE_META = {
+  'BBC World':               { cls: 'source-bbc',       label: 'BBC World' },
+  'The Guardian - World':    { cls: 'source-guardian',  label: '卫报' },
+  'Al Jazeera':              { cls: 'source-aljazeera', label: '半岛电视台' },
+  'NHK World':               { cls: 'source-nhk',       label: 'NHK World' },
+  'VOA News':                { cls: 'source-voa',        label: 'VOA' },
+};
+const DEFAULT_META = { cls: 'source-other', label: '其他' };
+
+// ========== State ==========
+let allArticles = [];
+let activeSource = '全部';
+
+// ========== Helpers ==========
+function getSourceMeta(source) {
+  return SOURCE_META[source] || DEFAULT_META;
+}
+
+function classNameForSource(source) {
+  return getSourceMeta(source).cls;
+}
+
+function labelForSource(source) {
+  return getSourceMeta(source).label;
+}
+
+/** 将 GMT 时间转为北京时间字符串 */
+function toBeijingTime(gmtStr) {
+  try {
+    const d = new Date(gmtStr);
+    if (isNaN(d.getTime())) return gmtStr;
+    return d.toLocaleString('zh-CN', {
+      timeZone: 'Asia/Shanghai',
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit',
+    });
+  } catch { return gmtStr; }
+}
+
+/** 获取今天和昨天的日期字符串 YYYY-MM-DD */
+function getDateStrings() {
+  const now = new Date();
+  const beijing = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
+  const today = beijing.toISOString().slice(0, 10);
+  const yesterday = new Date(beijing.getTime() - 86400000).toISOString().slice(0, 10);
+  return [today, yesterday];
+}
+
+// ========== Fetch ==========
+async function fetchNews() {
+  const dates = getDateStrings();
+  let data = null;
+
+  for (const date of dates) {
+    try {
+      const url = `${RAW_BASE}/news_${date}.json`;
+      const resp = await fetch(url);
+      if (resp.ok) {
+        data = await resp.json();
+        document.getElementById('headerDate').textContent =
+          `数据更新于 ${date}（北京时间）`;
+        break;
+      }
+    } catch { /* try next date */ }
+  }
+
+  return data;
+}
+
+// ========== Render ==========
+function renderStats(articles) {
+  const sources = new Set(articles.map(a => a.source));
+  const statsBar = document.getElementById('statsBar');
+  statsBar.innerHTML = `
+    <div class="stat-item">
+      <div class="stat-num">${articles.length}</div>
+      <div class="stat-label">条新闻</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">${sources.size}</div>
+      <div class="stat-label">个来源</div>
+    </div>
+  `;
+}
+
+function renderFilterTabs(articles) {
+  const sources = [...new Set(articles.map(a => a.source))];
+  const tabs = document.getElementById('filterTabs');
+  const allActive = activeSource === '全部' ? ' active' : '';
+  let html = `<button class="filter-tab${allActive}" data-source="全部">全部</button>`;
+  sources.forEach(src => {
+    const active = activeSource === src ? ' active' : '';
+    html += `<button class="filter-tab${active}" data-source="${src}">${labelForSource(src)}</button>`;
+  });
+  tabs.innerHTML = html;
+
+  // Bind events
+  tabs.querySelectorAll('.filter-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeSource = btn.dataset.source;
+      renderFilterTabs(articles);
+      renderGrid();
+    });
+  });
+}
+
+function renderGrid() {
+  const grid = document.getElementById('newsGrid');
+  const query = document.getElementById('searchInput').value.trim().toLowerCase();
+
+  let filtered = allArticles;
+  if (activeSource !== '全部') {
+    filtered = filtered.filter(a => a.source === activeSource);
+  }
+  if (query) {
+    filtered = filtered.filter(a =>
+      a.title.toLowerCase().includes(query) ||
+      a.summary.toLowerCase().includes(query)
+    );
+  }
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="no-results">没有找到匹配的新闻</div>';
+    return;
+  }
+
+  grid.innerHTML = filtered.map(a => {
+    const srcMeta = getSourceMeta(a.source);
+    return `
+      <article class="news-card">
+        <span class="card-source ${srcMeta.cls}">${srcMeta.label}</span>
+        <h2 class="card-title">${escapeHtml(a.title)}</h2>
+        <p class="card-summary">${escapeHtml(a.summary)}</p>
+        <div class="card-meta">
+          <span>🕐 ${toBeijingTime(a.published)}</span>
+          <a class="card-link" href="${escapeAttr(a.link)}" target="_blank" rel="noopener">阅读全文</a>
+        </div>
+      </article>
+    `;
+  }).join('');
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+function escapeAttr(str) {
+  return str.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+// ========== Init ==========
+async function init() {
+  const grid = document.getElementById('newsGrid');
+
+  const data = await fetchNews();
+
+  if (!data || !Array.isArray(data) || data.length === 0) {
+    grid.innerHTML = `
+      <div class="error-state" style="grid-column:1/-1">
+        <div class="error-icon">📭</div>
+        <p>暂无新闻数据</p>
+        <p style="font-size:0.85rem;margin-top:4px;">可能 Actions 尚未运行，或数据正在采集中</p>
+        <button onclick="location.reload()">重新加载</button>
+      </div>`;
+    document.getElementById('headerDate').textContent = '暂无数据';
+    return;
+  }
+
+  allArticles = data;
+  renderStats(data);
+  renderFilterTabs(data);
+  renderGrid();
+
+  // Search
+  document.getElementById('searchInput').addEventListener('input', renderGrid);
+}
+
+// ========== Start ==========
+init();
+</script>
+
+</body>
+</html>
